@@ -10,8 +10,16 @@
   <div class="contact-form">
     <h2 class="form-title">こむぎの問い合わせフォーム</h2>
     <p>お名前</p>
-    <input placeholder="例: 山田太郎">
-    <p>メールアドレス(必須)</p>
+    <input placeholder="活動名を入力">
+    <p>メールアドレス</p>
+    <input placeholder="komugi@exmple.com">
+    <p>希望する連絡先</p>
+    <input type="radio" name="radio" value="Mail">メール
+    <input type="radio" name="radio" value="Twitter">X(Twitter)
+    <input type="radio" name="radio" value="Slack">Slack
+    <p>お問い合わせ内容</p>
+    <textarea placeholder=""></textarea>
+    <input class="contact-submit" type="submit" value="送信">
   </div>
   <script src="main.js"></script>
 </body>

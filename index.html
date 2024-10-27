@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>こむぎ / Komugi</title>
 </head>
-<body>
+<body> 
+  <!--フォームの作成-->
 
   <div class="contact-form">
     <h2 class="form-title">こむぎの問い合わせフォーム</h2>
@@ -14,9 +15,9 @@
     <p>メールアドレス</p>
     <input placeholder="komugi@exmple.com">
     <p>希望する連絡先</p>
-    <input type="radio" name="radio" value="Mail">メール
-    <input type="radio" name="radio" value="Twitter">X(Twitter)
-    <input type="radio" name="radio" value="Slack">Slack
+    <input type="radio" name="sns" value="Mail" id="select_mail"><label for="select_mail">メール</label>
+    <input type="radio" name="sns" value="Twitter" id="select_x"><label for="select_x">X(Twitter)</label>
+    <input type="radio" name="sns" value="Slack" id="select_slack"><label for="select_slack">Slack</label>
     <p>お問い合わせ内容</p>
     <textarea placeholder=""></textarea>
     <input class="contact-submit" type="submit" value="送信">
